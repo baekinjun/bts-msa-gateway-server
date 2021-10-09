@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://172.17.0.1:8888
+      name: gateway-server
+      profile: test
+
+encrypt:
+  key: bts-key
